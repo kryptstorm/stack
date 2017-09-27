@@ -1,0 +1,22 @@
+{
+  "name": "stack",
+  "version": "1.0.0",
+  "description": "An API gateway, build with koa@2, postgres@9",
+  "main": "src/www.js",
+  "scripts": {
+    "pg": "./node_modules/.bin/sequelize",
+    "dev": "./node_modules/.bin/nodemon -w src src/www.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kryptstorm/stack.git"
+  },
+  "keywords": ["API", "gateway", "koa", "postgres"],
+  "author": "TuanNguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kryptstorm/stack/issues"
+  },
+  "homepage": "https://github.com/kryptstorm/stack#readme"
+}
